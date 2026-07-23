@@ -25,3 +25,6 @@ PCB officially uploaded. Now it comes the case design
 Started designign the plate, than it comes the case! 
 
 ![Plate](media/plate.png)
+
+Update:
+I ran into a problem, i just realized that it isn't possible to connect the usb to the keybaord because the microcontroller is sitting right under the spacebar. A possible solution is to have a usb female-female inside the case to re-route that port to a nicer spot (probably in the front of the case)
