@@ -13,3 +13,7 @@ My attempt to place all the keys an other component was succesful, now it comes 
 PCB almost finished! It took a lot of time because the connections are A LOT. Now there are only few of them i still need to connect
 
 ![PCB almost finished](media/pcb1.png)
+
+PCB Finalyy finished! Now i only need to tidy the connections and check the DRC. If it comes OK I can finally commit the diagram and PCB!
+
+![PCB finished](media/pcbf.png)
