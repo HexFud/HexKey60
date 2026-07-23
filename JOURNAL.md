@@ -21,3 +21,7 @@ PCB Finalyy finished! Now i only need to tidy the connections and check the DRC.
 PCB officially uploaded. Now it comes the case design
 
 ![File uploaded](media/upload.png)
+
+Started designign the plate, than it comes the case! 
+
+![Plate](media/plate.png)
