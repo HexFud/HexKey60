@@ -17,3 +17,7 @@ PCB almost finished! It took a lot of time because the connections are A LOT. No
 PCB Finalyy finished! Now i only need to tidy the connections and check the DRC. If it comes OK I can finally commit the diagram and PCB!
 
 ![PCB finished](media/pcbf.png)
+
+PCB officially uploaded. Now it comes the case design
+
+![File uploaded](media/upload.png)
