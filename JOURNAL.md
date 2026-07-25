@@ -39,3 +39,7 @@ To make the USB breakout board work, I need to manually solder the micro-USB pin
 In the meantime, I've also worked on the case—designed the bottom part with some room for the USB cables, and added a little plate under the USB-C breakout board so I can screw it down securely. That part's done, though I had to tweak it a bit because the keys on the PCB weren't lining up right.
 
 ![Plate](media/plate1.png)
+
+After a bit of 3D modelling i have made a shape for the bottom of the case, now i need to polish it up and then design the top
+
+![Bottom case](media/casebott.png)
