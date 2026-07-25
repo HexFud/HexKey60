@@ -43,3 +43,6 @@ In the meantime, I've also worked on the case and designed the bottom part with 
 After a bit of 3D modelling i have made a shape for the bottom of the case, now i need to polish it up and then design the top
 
 ![Bottom case](media/casebot.png)
+
+Update:
+After a bit i came to a conclusion that I don't need to design the top part of the case because I Have designed the pcb and the plate with holes to mount them directly into the bottom part of the case. So I will now code the firmware!
