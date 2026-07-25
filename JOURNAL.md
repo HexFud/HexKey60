@@ -36,7 +36,7 @@ I searched up on the internet and i found this board https://www.adafruit.com/pr
 
 Big update on the project. 
 To make the USB breakout board work, I need to manually solder the micro-USB pins straight onto the board. There won't be any traces for D+ and D- on the PCB because those pins on the microcontroller are hidden right under the USB port and aren't visible in the schematic.
-In the meantime, I've also worked on the case—designed the bottom part with some room for the USB cables, and added a little plate under the USB-C breakout board so I can screw it down securely. That part's done, though I had to tweak it a bit because the keys on the PCB weren't lining up right.
+In the meantime, I've also worked on the case and designed the bottom part with some room for the USB cables, and added a little plate under the USB-C breakout board so I can screw it down securely. That part's done, though I had to tweak it a bit because the keys on the PCB weren't lining up right.
 
 ![Plate](media/plate1.png)
 
