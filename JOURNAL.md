@@ -42,4 +42,4 @@ In the meantime, I've also worked on the case and designed the bottom part with 
 
 After a bit of 3D modelling i have made a shape for the bottom of the case, now i need to polish it up and then design the top
 
-![Bottom case](media/casebott.png)
+![Bottom case](media/casebot.png)
