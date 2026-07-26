@@ -46,3 +46,5 @@ After a bit of 3D modelling i have made a shape for the bottom of the case, now 
 
 Update:
 After a bit i came to a conclusion that I don't need to design the top part of the case because I Have designed the pcb and the plate with holes to mount them directly into the bottom part of the case. So I will now code the firmware!
+
+Final update on this journey, i finished up the project and now i am gonna upload all the files and write a nice README
