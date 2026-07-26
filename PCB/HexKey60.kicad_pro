@@ -537,7 +537,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/Federico/Documents/Tastiera/Tastiera/fabbricazione/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -661,7 +661,7 @@
         "uuid": "97e99205-4d92-4a21-9621-ad820c711926"
       }
     ],
-    "used_designators": "A1,SW1-70,S1-4,D1-139,U1,RZ1",
+    "used_designators": "A1,P1,SW1-70,S1-4,D1-139,U1,RZ1",
     "variants": []
   },
   "sheets": [
