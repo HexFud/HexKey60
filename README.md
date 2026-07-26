@@ -1,4 +1,4 @@
-# HexKey60
+![HexKey60](media/keyboard-pcb.png)
 
 Just a custom mechanical keyboard project designed by me
 
@@ -39,3 +39,75 @@ The plate and the case are fully 3d printed
 Live control from a PC over Raw HID (`tastiera68_controller.py`, requires `pip install hidapi`):
 - change LED color on the fly (persistent, saved to the Pico's emulated EEPROM)
 - remap any key without reflashing (also persistent, saved to a dedicated EEPROM area)
+
+## Building the firmware
+
+### 1. Get QMK
+
+If you don't already have a QMK checkout:
+
+```
+git clone https://github.com/qmk/qmk_firmware.git
+cd qmk_firmware
+```
+
+Follow QMK's own setup guide once (https://docs.qmk.fm/#/newbs_getting_started)
+to install the build environment (Python, the ARM toolchain, etc.) if you
+haven't done that before — it's a one-time setup per PC.
+
+### 2. Drop this keyboard into the QMK tree
+
+Copy the whole `HexKey60` folder into `qmk_firmware/keyboards/`, so you end
+up with:
+
+```
+qmk_firmware/
+  keyboards/
+    HexKey60/
+      info.json
+      keymaps/
+        default/
+          keymap.c
+          rules.mk
+```
+
+### 3. Compile
+
+From the `qmk_firmware` root:
+
+```
+qmk compile -kb HexKey60 -km default
+```
+
+If everything is set up correctly this produces a file called something
+like `HexKey60_default.uf2` in the `qmk_firmware` root folder.
+
+If the build fails on the EEPROM driver lines in `rules.mk`
+(`EEPROM_DRIVER` / `WEAR_LEVELING_DRIVER`), check QMK's current docs for the
+exact driver name used for RP2040 in your checkout's version — the name has
+changed between QMK releases.
+
+### 4. Put the Pico into bootloader mode
+
+The RP2040 shows up as a USB mass-storage drive (`RPI-RP2`) when it's ready
+to receive new firmware:
+
+1. Unplug the keyboard.
+2. Hold down the **BOOTSEL** button on the Pico (the small white button on
+   the board itself).
+3. While still holding it, plug the USB cable back in.
+4. Let go of the button — a drive called `RPI-RP2` should appear on your
+   computer, the same way a USB flash drive would.
+
+### 5. Flash
+
+Just drag and drop the `.uf2` file you built in step 3 onto the `RPI-RP2`
+drive. The Pico reboots on its own as soon as the copy finishes, and the
+keyboard should now be running your firmware.
+
+If `qmk flash` is set up on your system instead, this also works and does
+the copy for you:
+
+```
+qmk flash -kb HexKey60 -km default
+```
