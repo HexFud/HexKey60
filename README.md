@@ -1,3 +1,5 @@
+##HexKey60
+
 ![HexKey60](media/keyboard-pcb.png)
 
 Just a custom mechanical keyboard project designed by me
