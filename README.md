@@ -1,4 +1,4 @@
-##HexKey60
+## HexKey60
 
 ![HexKey60](media/keyboard-pcb.png)
 
