@@ -1,0 +1,11 @@
+Item,Quantity,Notes,Estimated Price (EUR)
+"Akko CS 36gf Tactile Keyboard Switches - Lavender Purple, Plate Mounted, Compatible for MX Mechanical Keyboard",1,"Matrix switches (usually sold in boxes of 45, a 65/75% layout requires 2 boxes)","35.00"
+1N4148 Diodes,68,"One per switch, matrix diode","3.00"
+Orpheus Pico,1,"Microcontroller","7.50"
+"EG Everglide Panda Stabilizer Gold Plated Plate Mounted Black White Stabilizer (EG Panda for 104)",1,"Stabilizers for long keys","20.00"
+SK6812 MINI-E LEDs,68,"One per key, wired as 7 parallel groups on GPIO21 (single static color)","12.50"
+"PCB (see the production folder)",1,"Custom printed circuit board","25.00"
+AKKO Black & Gold ISO Nordic Keycap Set (76-Key),1,"Keycap set","55.00"
+Adafruit USB Type C Breakout Board - Downstream Connection,1,"USB-C connector breakout","6.00"
+Case,1,"3D Printed","20.00"
+Plate,1,"3D Printed","7.50"
