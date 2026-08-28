@@ -63,6 +63,9 @@ After a bit of 3D modelling i have made a shape for the bottom of the case, now 
 Update:
 After a bit i came to a conclusion that I don't need to design the top part of the case because I Have designed the pcb and the plate with holes to mount them directly into the bottom part of the case. So I will now code the firmware! Flashing QMK and mapping the layout went pretty smoothly once the hardware was actually done.
 
+## Day 7 — *~6 hours*
+Revisioned one last time the project and added some serigraphy, added a GND plan and fixed more than 200+ errors! Now we only need to produce the final product
+
 Final update on this journey, i finished up the project and now i am gonna upload all the files and write a nice README
 
 Time spent on this project: about 20 hours
