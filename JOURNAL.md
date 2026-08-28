@@ -68,4 +68,4 @@ Revisioned one last time the project and added some serigraphy, added a GND plan
 
 Final update on this journey, i finished up the project and now i am gonna upload all the files and write a nice README
 
-Time spent on this project: about 20 hours
+Time spent on this project: about 26 hours
